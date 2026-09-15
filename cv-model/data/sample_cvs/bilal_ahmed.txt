@@ -1,0 +1,17 @@
+BILAL AHMED
+bilal.ahmed@example.com | +92 321 9876543
+
+EDUCATION
+BS Mechatronics Engineering, Air University Islamabad (2019)
+
+WORK HISTORY
+
+CAD Engineer, Ghandhara Industries — 2019 to 2024 (5 years)
+Created detailed part and assembly models for commercial vehicle chassis
+components using Autodesk Inventor. Prepared production drawings to ISO
+standards and worked with the machine shop on manufacturability feedback.
+Led the migration of the legacy drawing archive to a managed PDM system.
+
+TECHNICAL SKILLS
+Autodesk Inventor, CATIA V5, geometric dimensioning and tolerancing,
+manufacturing drawings, PDM systems, MATLAB

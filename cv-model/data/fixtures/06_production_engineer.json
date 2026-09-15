@@ -1,0 +1,42 @@
+{
+  "match": "Production Engineer\nHonda Atlas Cars",
+  "output": {
+    "job_title": "Production Engineer",
+    "summary": "Support assembly line operations and continuous improvement.",
+    "responsibilities_text": "Monitor line performance, cycle times and takt adherence. Lead Kaizen events and 5S implementation on assigned lines. Investigate line stoppages and implement countermeasures. Prepare production reports for management.",
+    "required_skills": [
+      "Lean Manufacturing",
+      "Production Planning",
+      "Root Cause Analysis",
+      "MS Excel",
+      "Kaizen"
+    ],
+    "preferred_skills": [],
+    "requirements": {
+      "qualification": {
+        "mentioned": true,
+        "quoted_text": "Bachelor's degree in Industrial or Mechanical Engineering.",
+        "min_value": null,
+        "max_value": null,
+        "level": "bachelors",
+        "field_of_study": "Industrial or Mechanical Engineering"
+      },
+      "experience": {
+        "mentioned": false,
+        "quoted_text": null,
+        "min_value": null,
+        "max_value": null,
+        "level": null,
+        "field_of_study": null
+      },
+      "age": {
+        "mentioned": false,
+        "quoted_text": null,
+        "min_value": null,
+        "max_value": null,
+        "level": null,
+        "field_of_study": null
+      }
+    }
+  }
+}

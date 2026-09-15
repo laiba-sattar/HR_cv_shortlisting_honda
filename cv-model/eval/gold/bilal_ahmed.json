@@ -1,0 +1,19 @@
+{
+  "source_file": "bilal_ahmed.txt",
+  "qualifications": [
+    {
+      "level": "bachelors",
+      "field_of_study": "Mechatronics Engineering"
+    }
+  ],
+  "skills": [
+    "Autodesk Inventor",
+    "CATIA V5",
+    "geometric dimensioning and tolerancing",
+    "manufacturing drawings",
+    "PDM systems",
+    "MATLAB"
+  ],
+  "total_experience_years": 5.0,
+  "hr_rank": 4
+}

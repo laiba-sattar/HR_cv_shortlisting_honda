@@ -1,0 +1,32 @@
+# --- Core (always needed) ---
+numpy>=1.24
+
+# --- Embeddings: pick ONE path ---
+# Self-hosted (recommended if CV text cannot leave Honda infrastructure):
+sentence-transformers>=3.0
+# Hosted API alternative: use EMBED_PROVIDER=openai with the openai package below.
+
+# --- LLM: install only the provider you use ---
+anthropic>=0.40        # LLM_PROVIDER=anthropic
+openai>=1.50           # LLM_PROVIDER=openai, or =ollama for a self-hosted server
+
+# --- Document reading ---
+pymupdf>=1.24          # PDF text extraction (fast, reliable)
+python-docx>=1.1       # .docx
+pytesseract>=0.3.10    # OCR fallback for scanned CVs (needs the tesseract binary)
+pillow>=10.0
+
+# --- Optional conveniences ---
+python-dotenv>=1.0     # read settings from a .env file
+pytest>=8.0            # run the test suite
+
+# --- Backend API ---
+fastapi>=0.115
+uvicorn[standard]>=0.30
+python-multipart>=0.0.9
+httpx>=0.27            # sending sign-in codes via Resend
+
+# --- Phone sign-in (optional) ---
+# Only needed when FIREBASE_CREDENTIALS is set. Without it the phone option is
+# hidden and email sign-in works exactly as before.
+firebase-admin>=6.5

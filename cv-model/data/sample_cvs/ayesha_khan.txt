@@ -1,0 +1,30 @@
+AYESHA KHAN
+Mechanical Design Engineer
+ayesha.khan@example.com | +92 300 1234567 | Lahore, Pakistan
+
+PROFILE
+Mechanical design engineer with hands-on experience in automotive component
+design and part localisation.
+
+EDUCATION
+BSc Mechanical Engineering — University of Engineering & Technology, Lahore, 2020
+
+EXPERIENCE
+
+Design Engineer — Indus Motor Company, Karachi
+Mar 2021 - Present
+Produced 3D models and detailed manufacturing drawings for interior trim and
+bracket assemblies. Applied GD&T to all released drawings and reviewed supplier
+drawing submissions. Ran tolerance stack-up analysis on door hardware
+assemblies and supported DFM reviews with the tooling team. Reduced part cost
+14% on a localisation project for seat brackets.
+Tools: SolidWorks, Auto CAD, GD&T
+
+Design Intern — Millat Tractors Ltd., Lahore
+Jul 2020 - Feb 2021
+Assisted senior engineers with 2D drafting and bill-of-material preparation
+for transmission housing components.
+
+SKILLS
+Solid Works, Auto CAD, GD&T, Design for Manufacturing, Tolerance Analysis,
+Technical Documentation, MS Excel

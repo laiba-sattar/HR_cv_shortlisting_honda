@@ -1,0 +1,10 @@
+<!-- Three ranked bars on black, the top one red.
+     Deliberately NOT Honda's emblem: that mark is a registered trademark and
+     is rendered from the company's own supplied file (public/honda-logo.svg),
+     never redrawn. This is a neutral stand-in for the browser tab. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <rect width="32" height="32" rx="7" fill="#15171A"/>
+  <rect x="7" y="9"  width="18" height="3.4" rx="1.7" fill="#D50C26"/>
+  <rect x="7" y="14.3" width="13" height="3.4" rx="1.7" fill="#FFFFFF" opacity="0.9"/>
+  <rect x="7" y="19.6" width="8"  height="3.4" rx="1.7" fill="#FFFFFF" opacity="0.55"/>
+</svg>

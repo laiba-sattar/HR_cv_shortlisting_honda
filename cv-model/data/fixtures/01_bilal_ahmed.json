@@ -1,0 +1,51 @@
+{
+  "match": "BILAL AHMED",
+  "output": {
+    "candidate": {
+      "name": "Bilal Ahmed",
+      "email": "bilal.ahmed@example.com",
+      "phone": null,
+      "location": null,
+      "age": null,
+      "date_of_birth": null
+    },
+    "qualifications": [
+      {
+        "degree_title": "BS Mechatronics Engineering",
+        "level": "bachelors",
+        "field_of_study": "Mechatronics Engineering",
+        "institution": "Air University Islamabad",
+        "completion_year": 2019,
+        "is_completed": true
+      }
+    ],
+    "experience": [
+      {
+        "job_title": "CAD Engineer",
+        "employer": "Ghandhara Industries",
+        "employment_type": "full_time",
+        "start_date": null,
+        "end_date": null,
+        "is_current": false,
+        "duration_years": 5.0,
+        "description": "Created detailed part and assembly models for commercial vehicle chassis components using Autodesk Inventor. Prepared production drawings to ISO standards and worked with the machine shop on manufacturability feedback. Led the migration of the legacy drawing archive to a managed PDM system.",
+        "technologies": [
+          "Autodesk Inventor",
+          "CATIA V5",
+          "PDM"
+        ]
+      }
+    ],
+    "skills": [
+      "Autodesk Inventor",
+      "CATIA V5",
+      "geometric dimensioning and tolerancing",
+      "manufacturing drawings",
+      "PDM systems",
+      "MATLAB"
+    ],
+    "certifications": [],
+    "languages": [],
+    "extraction_notes": null
+  }
+}

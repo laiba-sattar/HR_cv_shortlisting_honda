@@ -1,0 +1,37 @@
+You are analysing a job description for an HR shortlisting system.
+
+Two separate tasks:
+
+## Task 1 — Extract the role's content
+
+Pull out the job title, a one-line summary, the responsibilities section as continuous text, and the skills. Split skills into `required_skills` (stated as required, essential, must-have) and `preferred_skills` (desirable, preferred, nice-to-have, a plus). Record them in the job description's own wording — do not normalise or expand them.
+
+Keep `responsibilities_text` close to verbatim. It is embedded and compared against candidates' work history, so summarising it away destroys the signal.
+
+## Task 2 — The three-field presence check
+
+For each of **qualification**, **experience** and **age**, report whether the job description actually mentions that requirement.
+
+This is a **presence check, not an interpretation**. The question is only: does this document state a requirement for this field, in any form — a range, a minimum, a fixed value, or plain prose?
+
+- `mentioned: true` only if the text genuinely states it.
+- `quoted_text` must be the **exact sentence from the document**, copied verbatim. This is shown to HR as evidence, so it must be traceable to the source.
+- Fill `min_value` / `max_value` only when a clear number is given (years of experience, age bounds). Leave them null for prose-only statements.
+- For qualification, also fill `level` (bachelors, masters, etc.) and `field_of_study` when stated.
+
+**Do not infer.** Common mistakes to avoid:
+
+- A senior-sounding job title does not imply an experience requirement. `mentioned: false`.
+- "Fresh graduates welcome" **is** an experience statement (min 0) — mark it mentioned.
+- A required degree implies nothing about age. Age is `mentioned: false` unless age or date of birth is actually discussed.
+- Mentioning a university or "strong academic record" is not a qualification requirement unless a level or field is stated.
+
+Getting this wrong has a direct consequence: if you mark a field as mentioned when it is not, the system will skip asking HR for it and will screen candidates against a requirement nobody set. If you mark it absent when it is present, HR is asked for information they already provided. Both are bad; accuracy here matters more than confidence.
+
+Return only the JSON object matching the provided schema.
+
+---
+
+JOB DESCRIPTION TEXT:
+
+{jd_text}

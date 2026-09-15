@@ -1,0 +1,12 @@
+﻿.env
+**/.env
+**/firebase-key.json
+**/*serviceaccount*.json
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+cv-model/storage/
+cv-model/web/
+honda-hr-frontend/dist/
+railway.exe

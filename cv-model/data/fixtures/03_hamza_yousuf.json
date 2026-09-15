@@ -1,0 +1,49 @@
+{
+  "match": "HAMZA YOUSUF",
+  "output": {
+    "candidate": {
+      "name": "Hamza Yousuf",
+      "email": "hamza.yousuf@example.com",
+      "phone": null,
+      "location": null,
+      "age": null,
+      "date_of_birth": null
+    },
+    "qualifications": [
+      {
+        "degree_title": "BBA (Hons) Finance",
+        "level": "bachelors",
+        "field_of_study": "Finance",
+        "institution": "Institute of Business Administration, Karachi",
+        "completion_year": 2018,
+        "is_completed": true
+      }
+    ],
+    "experience": [
+      {
+        "job_title": "Senior Accountant",
+        "employer": "Nishat Chunian Group",
+        "employment_type": "full_time",
+        "start_date": null,
+        "end_date": null,
+        "is_current": true,
+        "duration_years": 7.0,
+        "description": "Managed accounts payable and receivable for the textile division. Prepared monthly management accounts and supported the annual audit. Implemented a revised expense approval workflow in SAP.",
+        "technologies": [
+          "SAP FICO"
+        ]
+      }
+    ],
+    "skills": [
+      "SAP FICO",
+      "financial reporting",
+      "accounts payable",
+      "MS Excel",
+      "taxation",
+      "internal controls"
+    ],
+    "certifications": [],
+    "languages": [],
+    "extraction_notes": null
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "match": "FATIMA RAZA",
+  "output": {
+    "candidate": {
+      "name": "Fatima Raza",
+      "email": "fatima.raza@example.com",
+      "phone": null,
+      "location": null,
+      "age": null,
+      "date_of_birth": null
+    },
+    "qualifications": [
+      {
+        "degree_title": "Master of Science in Mechanical Engg",
+        "level": "masters",
+        "field_of_study": "Mechanical Engineering",
+        "institution": "NUST Islamabad",
+        "completion_year": 2023,
+        "is_completed": true
+      },
+      {
+        "degree_title": "Bachelor of Science in Mechanical Engineering",
+        "level": "bachelors",
+        "field_of_study": "Mechanical Engineering",
+        "institution": "NUST Islamabad",
+        "completion_year": 2021,
+        "is_completed": true
+      }
+    ],
+    "experience": [
+      {
+        "job_title": "Graduate Trainee Engineer",
+        "employer": "Pak Suzuki Motor Co.",
+        "employment_type": "full_time",
+        "start_date": null,
+        "end_date": null,
+        "is_current": true,
+        "duration_years": 1.0,
+        "description": "Rotational programme across press shop, weld shop and quality. Currently supporting the body engineering team with 3D modelling of reinforcement panels and checking supplier drawings for GD&T compliance.",
+        "technologies": [
+          "CATIA",
+          "GD&T"
+        ]
+      },
+      {
+        "job_title": "Research Assistant",
+        "employer": "NUST Advanced Manufacturing Lab",
+        "employment_type": "part_time",
+        "start_date": null,
+        "end_date": null,
+        "is_current": false,
+        "duration_years": 2.0,
+        "description": "Finite element analysis of lightweight automotive structures. Published two conference papers on crash energy absorption in extruded aluminium members.",
+        "technologies": [
+          "ANSYS",
+          "MATLAB"
+        ]
+      }
+    ],
+    "skills": [
+      "CATIA",
+      "ANSYS",
+      "SolidWorks",
+      "GD&T",
+      "Finite Element Analysis",
+      "MATLAB",
+      "technical report writing"
+    ],
+    "certifications": [],
+    "languages": [],
+    "extraction_notes": null
+  }
+}

@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  @apply bg-cream-50 text-ink-700 font-sans text-base;
+}
+
+/* Figures that sit in columns should line up. Applied broadly because almost
+   every number in this app appears in a score, a table or a list. */
+table,
+.tnum {
+  font-variant-numeric: tabular-nums;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  @apply text-ink-900;
+  text-wrap: balance;
+}
+
+::selection {
+  background: theme("colors.wine.100");
+  color: theme("colors.wine.800");
+}
+
+::-webkit-scrollbar {
+  width: 11px;
+  height: 11px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: theme("colors.cream.300");
+  border-radius: 999px;
+  border: 3px solid transparent;
+  background-clip: content-box;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: theme("colors.ink.300");
+  background-clip: content-box;
+}
+
+.focus-ring {
+  @apply outline-none focus-visible:ring-2 focus-visible:ring-honda-red focus-visible:ring-offset-2 focus-visible:ring-offset-cream-50;
+}
+
+/* Component classes, declared in the components layer so a utility written on
+   the element still wins. Outside the layer they land after the utilities in
+   the stylesheet, and `pl-8` on a `.field` silently loses to the class's own
+   padding — which is how a search icon ends up sitting on top of its
+   placeholder. */
+@layer components {
+  /* The page ground for every signed-in screen.
+     A faint red wash falling from under the header, run out by two fifths
+     down. Defined once because it has to be identical on all four pages —
+     a tint that differs slightly between Workspace and History reads as a
+     rendering bug rather than as a design. */
+  .page-ground {
+    @apply bg-cream-50;
+    background-image: linear-gradient(
+      180deg,
+      rgba(140, 26, 30, 0.07) 0%,
+      rgba(140, 26, 30, 0.02) 22%,
+      rgba(140, 26, 30, 0) 42%
+    );
+    background-repeat: no-repeat;
+  }
+
+  /* An uppercase micro-label. Used for column heads and section eyebrows —
+     letter-spacing is what stops small caps reading as shouting. */
+  .label {
+    @apply font-mono text-2xs font-medium uppercase tracking-[0.14em] text-ink-400;
+  }
+
+  /* The standard input. Defined once rather than repeated as a long class
+     string on every field, which is how they drift apart. */
+  .field {
+    @apply w-full rounded-lg border border-cream-300 bg-white px-3.5 py-2.5 text-base
+           text-ink-900 placeholder:text-ink-300
+           transition-colors duration-150
+           hover:border-ink-300
+           focus:border-honda-red focus:outline-none focus:ring-1 focus:ring-honda-red;
+  }
+
+  .field-sm {
+    @apply px-3 py-2 text-sm;
+  }
+
+  /* A native select keeps the OS arrow and its own metrics, so next to a
+     text input it sits a pixel or two off and looks like a different
+     control. Draw our own chevron and match the padding. */
+  select.field {
+    @apply appearance-none bg-no-repeat pr-9;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 24 24' fill='none' stroke='%237A6269' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");
+    background-position: right 0.75rem center;
+    background-size: 14px;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.animate-in {
+  animation: fadeInUp 0.24s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -400px 0;
+  }
+  100% {
+    background-position: 400px 0;
+  }
+}
+.shimmer {
+  background: linear-gradient(
+    90deg,
+    theme("colors.cream.100") 25%,
+    theme("colors.cream.50") 37%,
+    theme("colors.cream.100") 63%
+  );
+  background-size: 400px 100%;
+  animation: shimmer 1.4s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-in,
+  .shimmer {
+    animation: none;
+  }
+  * {
+    transition-duration: 0.01ms !important;
+  }
+}

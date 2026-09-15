@@ -1,0 +1,21 @@
+FATIMA RAZA
+fatima.raza@example.com
+
+EDUCATION
+Master of Science in Mechanical Engg — NUST Islamabad, 2023
+Bachelor of Science in Mechanical Engineering — NUST Islamabad, 2021
+
+EXPERIENCE
+
+Research Assistant, NUST Advanced Manufacturing Lab (Sep 2021 - Aug 2023)
+Finite element analysis of lightweight automotive structures. Published two
+conference papers on crash energy absorption in extruded aluminium members.
+
+Graduate Trainee Engineer, Pak Suzuki Motor Co. (Sep 2023 - Present)
+Rotational programme across press shop, weld shop and quality. Currently
+supporting the body engineering team with 3D modelling of reinforcement panels
+and checking supplier drawings for GD&T compliance.
+
+SKILLS
+CATIA, ANSYS, SolidWorks, GD&T, Finite Element Analysis, MATLAB,
+technical report writing

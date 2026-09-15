@@ -1,0 +1,37 @@
+# What the Railway CLI must NOT upload.
+#
+# This file exists separately from .dockerignore for one reason: the CLI does
+# not read .dockerignore. It tars the folder first and uploads that, and only
+# then does Docker apply .dockerignore inside the builder. So without this
+# file, node_modules (~200 MB) goes over the wire and the upload is refused
+# with HTTP 413 before any build starts.
+
+# Local environments and caches
+**/node_modules
+**/.venv
+**/venv
+**/__pycache__
+**/*.pyc
+**/.pytest_cache
+**/.mypy_cache
+honda-hr-frontend/dist
+
+# Secrets. On Railway these are Variables and Secrets, never files.
+.env
+**/.env
+**/.env.local
+**/firebase-key.json
+**/*serviceaccount*.json
+**/*-firebase-adminsdk-*.json
+
+# Local run data: uploaded CVs, past rankings, the user database.
+cv-model/storage
+cv-model/results.json
+cv-model/web
+
+# Editor and OS noise
+.git
+.vscode
+.idea
+**/.DS_Store
+**/Thumbs.db

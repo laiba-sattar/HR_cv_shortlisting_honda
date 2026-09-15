@@ -1,0 +1,19 @@
+__pycache__/
+*.pyc
+.venv/
+
+# Secrets. Never commit these.
+.env
+firebase-key.json
+*-firebase-adminsdk-*.json
+*serviceaccount*.json
+
+# Local data: the database holds real users and password hashes, and the runs
+# folder holds real candidate CVs. Neither belongs in a repository.
+storage/
+
+# The built frontend, copied in at deploy time.
+web/
+
+results.json
+eval/report.json

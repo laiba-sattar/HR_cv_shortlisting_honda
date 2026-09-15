@@ -1,0 +1,20 @@
+{
+  "source_file": "ayesha_khan.txt",
+  "qualifications": [
+    {
+      "level": "bachelors",
+      "field_of_study": "Mechanical Engineering"
+    }
+  ],
+  "skills": [
+    "Solid Works",
+    "Auto CAD",
+    "GD&T",
+    "Design for Manufacturing",
+    "Tolerance Analysis",
+    "Technical Documentation",
+    "MS Excel"
+  ],
+  "total_experience_years": 4.0,
+  "hr_rank": 1
+}

@@ -1,0 +1,46 @@
+{
+  "match": "Mechanical Design Engineer\nHonda Atlas Cars",
+  "output": {
+    "job_title": "Mechanical Design Engineer",
+    "summary": "Component design for passenger vehicle assemblies.",
+    "responsibilities_text": "Produce 3D models and 2D manufacturing drawings for vehicle components. Apply GD&T standards to drawings and review supplier submissions. Support design validation, tolerance stack-up analysis and DFM reviews. Work with the production and quality teams to resolve manufacturing issues. Contribute to cost reduction and part localisation projects.",
+    "required_skills": [
+      "AutoCAD",
+      "SolidWorks",
+      "GD&T",
+      "Design for Manufacturing (DFM)",
+      "Technical Documentation"
+    ],
+    "preferred_skills": [
+      "CATIA",
+      "Six Sigma",
+      "Tolerance stack-up analysis"
+    ],
+    "requirements": {
+      "qualification": {
+        "mentioned": true,
+        "quoted_text": "Bachelor's degree in Mechanical Engineering from an HEC-recognised university.",
+        "min_value": null,
+        "max_value": null,
+        "level": "bachelors",
+        "field_of_study": "Mechanical Engineering"
+      },
+      "experience": {
+        "mentioned": true,
+        "quoted_text": "2-4 years of relevant experience in automotive, manufacturing or product design.",
+        "min_value": 2,
+        "max_value": 4,
+        "level": null,
+        "field_of_study": null
+      },
+      "age": {
+        "mentioned": true,
+        "quoted_text": "Applicants should be between 22 and 30 years of age.",
+        "min_value": 22,
+        "max_value": 30,
+        "level": null,
+        "field_of_study": null
+      }
+    }
+  }
+}

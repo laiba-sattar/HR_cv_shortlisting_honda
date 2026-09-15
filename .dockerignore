@@ -1,0 +1,41 @@
+# Never ship secrets or local state into an image.
+#
+# These patterns are deliberately "**/" prefixed. A bare ".env" in a
+# .dockerignore matches only the build-context root, so "cv-model/.env" —
+# the one holding the API key and the mail password — would have been copied
+# straight into the image by the COPY of cv-model/.
+.env
+**/.env
+**/.env.local
+**/firebase-key.json
+**/*serviceaccount*.json
+**/*-firebase-adminsdk-*.json
+
+# Kept on purpose: .env.example documents the settings, and .env.production
+# carries the Firebase web config, which is public by design and has to be
+# present when the frontend is built.
+!**/.env.example
+!**/.env.production
+
+# Local environments and caches — rebuilt inside the image.
+**/.venv
+**/venv
+**/node_modules
+**/__pycache__
+**/*.pyc
+**/.pytest_cache
+**/.mypy_cache
+
+# Local run data. Uploaded CVs, past rankings and the user database — which
+# holds password hashes — stay on your machine.
+cv-model/storage
+cv-model/results.json
+honda-hr-frontend/dist
+cv-model/web
+
+# Editor and OS noise
+.git
+.vscode
+.idea
+**/.DS_Store
+**/Thumbs.db

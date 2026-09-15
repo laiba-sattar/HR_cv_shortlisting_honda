@@ -1,0 +1,20 @@
+{
+  "source_file": "fatima_raza.txt",
+  "qualifications": [
+    {
+      "level": "masters",
+      "field_of_study": "Mechanical Engineering"
+    }
+  ],
+  "skills": [
+    "CATIA",
+    "ANSYS",
+    "SolidWorks",
+    "GD&T",
+    "Finite Element Analysis",
+    "MATLAB",
+    "technical report writing"
+  ],
+  "total_experience_years": 3.0,
+  "hr_rank": 3
+}

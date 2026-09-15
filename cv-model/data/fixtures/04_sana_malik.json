@@ -1,0 +1,60 @@
+{
+  "match": "SANA MALIK",
+  "output": {
+    "candidate": {
+      "name": "Sana Malik",
+      "email": "sana.malik@example.com",
+      "phone": null,
+      "location": null,
+      "age": 24,
+      "date_of_birth": null
+    },
+    "qualifications": [
+      {
+        "degree_title": "B.E. Mechanical Engineering",
+        "level": "bachelors",
+        "field_of_study": "Mechanical Engineering",
+        "institution": "Mehran University of Engineering & Technology",
+        "completion_year": 2023,
+        "is_completed": true
+      }
+    ],
+    "experience": [
+      {
+        "job_title": "Junior Design Engineer",
+        "employer": "Master Motor Corporation",
+        "employment_type": "full_time",
+        "start_date": null,
+        "end_date": null,
+        "is_current": true,
+        "duration_years": 2.0,
+        "description": "Support the design team on bracket and mounting component design for light commercial vehicles. Prepare 2D manufacturing drawings and maintain the part numbering database. Assisted on two localisation projects.",
+        "technologies": [
+          "AutoCAD",
+          "SolidWorks"
+        ]
+      },
+      {
+        "job_title": "Internship",
+        "employer": "Atlas Honda Ltd",
+        "employment_type": "internship",
+        "start_date": null,
+        "end_date": null,
+        "is_current": false,
+        "duration_years": 0.25,
+        "description": "Three month summer internship in the manufacturing engineering department. Documented assembly line standard operating procedures.",
+        "technologies": []
+      }
+    ],
+    "skills": [
+      "AutoCAD",
+      "SolidWorks",
+      "technical drawing",
+      "GD and T",
+      "MS Office"
+    ],
+    "certifications": [],
+    "languages": [],
+    "extraction_notes": null
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "source_file": "hamza_yousuf.txt",
+  "qualifications": [
+    {
+      "level": "bachelors",
+      "field_of_study": "Finance"
+    }
+  ],
+  "skills": [
+    "SAP FICO",
+    "financial reporting",
+    "accounts payable",
+    "MS Excel",
+    "taxation",
+    "internal controls"
+  ],
+  "total_experience_years": 7.0,
+  "hr_rank": 5
+}

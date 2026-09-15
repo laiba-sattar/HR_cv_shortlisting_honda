@@ -1,0 +1,63 @@
+{
+  "match": "AYESHA KHAN",
+  "output": {
+    "candidate": {
+      "name": "Ayesha Khan",
+      "email": "ayesha.khan@example.com",
+      "phone": null,
+      "location": null,
+      "age": null,
+      "date_of_birth": null
+    },
+    "qualifications": [
+      {
+        "degree_title": "BSc Mechanical Engineering",
+        "level": "bachelors",
+        "field_of_study": "Mechanical Engineering",
+        "institution": "University of Engineering & Technology, Lahore",
+        "completion_year": 2020,
+        "is_completed": true
+      }
+    ],
+    "experience": [
+      {
+        "job_title": "Design Engineer",
+        "employer": "Indus Motor Company",
+        "employment_type": "full_time",
+        "start_date": null,
+        "end_date": null,
+        "is_current": true,
+        "duration_years": 3.4,
+        "description": "Produced 3D models and detailed manufacturing drawings for interior trim and bracket assemblies. Applied GD&T to all released drawings and reviewed supplier drawing submissions. Ran tolerance stack-up analysis on door hardware assemblies and supported DFM reviews with the tooling team. Reduced part cost 14% on a localisation project for seat brackets.",
+        "technologies": [
+          "SolidWorks",
+          "Auto CAD",
+          "GD&T"
+        ]
+      },
+      {
+        "job_title": "Design Intern",
+        "employer": "Millat Tractors Ltd.",
+        "employment_type": "internship",
+        "start_date": null,
+        "end_date": null,
+        "is_current": false,
+        "duration_years": 0.6,
+        "description": "Assisted senior engineers with 2D drafting and bill-of-material preparation for transmission housing components.",
+        "technologies": []
+      }
+    ],
+    "skills": [
+      "Solid Works",
+      "Auto CAD",
+      "GD&T",
+      "Design for Manufacturing",
+      "Tolerance Analysis",
+      "Technical Documentation",
+      "MS Excel"
+    ],
+    "certifications": [],
+    "languages": [],
+    "extraction_notes": null
+  }
+}
